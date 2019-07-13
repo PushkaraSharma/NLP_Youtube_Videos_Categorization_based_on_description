@@ -32,3 +32,9 @@ Python(version 3.7)
 * 8. Naive byes is imported from nltk(read about this..coz some differneces from normal naivebyes) and the model is trained on the training data(there is no y_train because the format of dictionary is like {{word1:true,woed2:true,….}:category1},{same as first with its category}{cate3}…}hence categories are also included in the dictioanry.Hnece data is only divided into train,test.
 * 9. Accuracy of model is tested and it comes out to be around 88%.
 * 10. Some random descriptions are also feeded to test the model and it correctly predict the category.
+
+## Results
+
+ 
+![Capture1](https://user-images.githubusercontent.com/46081301/61169092-10515380-a576-11e9-9480-9f01b7cc9645.PNG)
+
