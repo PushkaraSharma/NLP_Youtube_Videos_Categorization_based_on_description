@@ -21,6 +21,9 @@ Python(version 3.7)
 ### For Developing Model:-
 * 1. Numpy and pandas are imported for some required preprocessing and dataframe.
 * 2. As the differnce bw no. of videos for each category is high hence it is reduced to small diffence so that model is not biased.
+ 
+![image](https://user-images.githubusercontent.com/46081301/61169061-417d5400-a575-11e9-9352-69ee851d0810.png)
+
 * 3. Feature variable(description) values are stored in X variable and target values(category) in Y variable.
 * 4. Then we import nltk functions to preprocess the description of the videos (removing stopwords,punctuations ,not ASCII chacarcters,emails,websites,phone no.,money symbols and all other stuff that does not required).
 * 5. Then we tokenize words and put them in the dictionary along with value True for all word sin dictionary only if words are not in stopwords and (doesnot start with “//” (part of preprpcessing)).
